@@ -31,7 +31,7 @@ async function onReceived(uint8Arr,id){
   let data = protocol.parse(uint8Arr);
   Log.out("onReceived() type="+data.type+" from="+id);
   switch(data.type){
-  	case "cheen":
+    case "cheen":
     case "jreen":
       if(data.toId == "00000000"){
         await powtServer.broadcastDgram(uint8Arr,id);
