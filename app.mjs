@@ -10,9 +10,6 @@ import powtServer from "./powtserver.mjs";
 import protocol from "./www/protocol.mjs";
 import LOG from "./www/log.mjs";
 
-const MAX_NEXTBAR_COUNT = 60000;
-const NEXT_SENDTIME_DELAY = 2000;
-
 const Log = new LOG(null);
 
 const app = express();
