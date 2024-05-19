@@ -1,0 +1,16 @@
+{
+  "name": "webtransport-text",
+  "version": "0.0.1",
+  "description": "webtransport-text",
+  "main": "app.mjs",
+  "author": "D.F.Mac.@TripArts Music",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@fails-components/webtransport": "^1.0.4",
+    "@fails-components/webtransport-transport-http3-quiche": "^1.0.4",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nanoid": "^5.0.7"
+  }
+}
