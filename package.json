@@ -1,7 +1,7 @@
 {
-  "name": "webtransport-text",
+  "name": "powt+powtServer",
   "version": "0.0.1",
-  "description": "webtransport-text",
+  "description": "A Simple WebTransport javascript library for client and server.",
   "main": "app.mjs",
   "author": "D.F.Mac.@TripArts Music",
   "license": "MIT",

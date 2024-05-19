@@ -1,3 +1,7 @@
+//
+// log.mjs by D.F.Mac.@TripArts Music
+//
+
 class Log{
   constructor(dom){
     this.dom = null;

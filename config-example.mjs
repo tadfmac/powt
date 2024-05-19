@@ -1,3 +1,8 @@
+//
+// config-example.mjs by D.F.Mac.@TripArts Music
+// 
+// please write your settings and rename to config.mjs
+
 import fsp from "fs/promises";
 
 const _key = await fsp.readFile("your-key-path");
