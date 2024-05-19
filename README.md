@@ -10,6 +10,13 @@ T.B.D.
 
 T.B.D.
 
+## dependencies
+
+- [@fails-components/webtransport](https://github.com/fails-components/webtransport)
+- [express](https://github.com/expressjs/express)
+- [nanoid](https://github.com/ai/nanoid)
+- [cors (express middleware)](https://www.npmjs.com/package/cors)
+
 ## License
 
 MIT
