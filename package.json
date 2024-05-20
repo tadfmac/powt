@@ -6,7 +6,6 @@
   "author": "D.F.Mac.@TripArts Music",
   "license": "MIT",
   "type": "module",
-  "private":"false",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tadfmac/powt.git"
