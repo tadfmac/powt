@@ -2,7 +2,6 @@
 .Thumbs.db
 package-lock.json
 node_modules/
-cert/
-config.mjs
-work/
+example/server/config.mjs
+example/server/cert/
 

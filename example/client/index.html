@@ -18,15 +18,10 @@
 </div>
 <div id="log"></div>
 <style>
-@font-face {
-  font-family: 'tegaki';
-  src: url('./HuiFont29/HuiFont29.ttf') format('truetype');
-}
 *{
   padding:0px;
   margin:0px;
   box-sizing: border-box;
-  font-family: 'tegaki';
 }
 html{
   height:100%;
@@ -97,10 +92,10 @@ body{
 }
 </style>
 <script type="module">
-import protocol from "./protocol.mjs";
-import powt from "./powt.mjs";
+import protocol from "./common/protocol.mjs";
+import powt from "./lib/powt.mjs";
 import testtext from "./testtext.mjs";
-import LOG from "./log.mjs";
+import LOG from "./lib/log.mjs";
 
 ////////////////////////////////////////////////////
 // DOM Event handlers
