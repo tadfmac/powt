@@ -18,6 +18,26 @@ Please See details below a server example.
 
 [`example/server/app.mjs`](./example/server/app.mjs)
 
+## Run example
+
+### run server
+
+#### 1. Make your config.mjs to `/example/server/config.mjs`
+
+#### 2. npm i
+
+```
+cd powt
+npm i
+node ./example/server/app.mjs
+```
+### client
+
+Please access `https://your-host-url:your-port-number` by browser.
+
+> Please check the website below for compatible browsers.
+> https://caniuse.com/webtransport
+
 ## dependencies
 
 ### powtserver.mjs
