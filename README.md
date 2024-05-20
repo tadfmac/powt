@@ -4,11 +4,19 @@ A Simple WebTransport javascript library for client and server.
 
 ## [powt.mjs] client Library
 
-T.B.D.
+[`lib/powt.mjs`](./lib/powt.mjs)
+
+Please See details below a client example.
+
+[`example/client/index.html`](./example/client/index.html)
 
 ## [powtserver.mjs] server Library
 
-T.B.D.
+[`lib/powtserver.mjs`](./lib/powtserver.mjs)
+
+Please See details below a server example.
+
+[`example/server/app.mjs`](./example/server/app.mjs)
 
 ## dependencies
 
