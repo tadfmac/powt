@@ -1,6 +1,5 @@
 .DS_Store
 .Thumbs.db
-package-lock.json
 node_modules/
 example/server/config.mjs
 example/server/cert/
