@@ -1,6 +1,6 @@
 {
   "name": "powt",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Simple WebTransport javascript library for client and server.",
   "main": "/lib/powtserver.mjs",
   "author": "D.F.Mac.@TripArts Music",
@@ -11,8 +11,8 @@
     "url": "git+https://github.com/tadfmac/powt.git"
   },
   "dependencies": {
-    "@fails-components/webtransport": "^1.1.0",
-    "@fails-components/webtransport-transport-http3-quiche": "^1.1.0",
+    "@fails-components/webtransport": "1.1.0",
+    "@fails-components/webtransport-transport-http3-quiche": "1.1.0",
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "nanoid": "^5.0.7"
