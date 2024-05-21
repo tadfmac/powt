@@ -5,10 +5,10 @@
   "exports": {
     ".": {
       "browser": {
-        "import": "/lib/powt.mjs"
+        "import": "./lib/powt.mjs"
       },
       "node": {
-        "import": "/lib/powtserver.mjs"
+        "import": "./lib/powtserver.mjs"
       }
     }
   },
