@@ -1,8 +1,17 @@
 {
   "name": "powt",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A Simple WebTransport javascript library for client and server.",
-  "main": "/lib/powtserver.mjs",
+  "exports": {
+    ".": {
+      "browser": {
+        "import": "/lib/powt.mjs"
+      },
+      "node": {
+        "import": "/lib/powtserver.mjs"
+      }
+    }
+  },
   "author": "D.F.Mac.@TripArts Music",
   "license": "MIT",
   "type": "module",
