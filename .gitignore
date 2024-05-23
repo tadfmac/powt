@@ -4,4 +4,5 @@ node_modules/
 example/config.mjs
 example/cert/
 example/node_modules/
+example/package-lock.json
 

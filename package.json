@@ -1,6 +1,6 @@
 {
   "name": "powt",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A Simple WebTransport javascript library for client and server.",
   "exports": {
     ".": {
