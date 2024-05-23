@@ -16,20 +16,20 @@ Please See details below a client example.
 
 Please See details below a server example.
 
-[`example/server/app.mjs`](./example/server/app.mjs)
+[`example/app.mjs`](./example/app.mjs)
 
 ## Run example
 
 ### run server
 
-#### 1. Make your config.mjs to `/example/server/config.mjs`
+#### 1. Make your config.mjs to `/example/config.mjs`
 
 #### 2. npm i
 
 ```
-cd powt
+cd powt/example
 npm i
-node ./example/server/app.mjs
+node ./app.mjs
 ```
 ### client
 

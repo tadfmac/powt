@@ -1,6 +1,7 @@
 .DS_Store
 .Thumbs.db
 node_modules/
-example/server/config.mjs
-example/server/cert/
+example/config.mjs
+example/cert/
+example/node_modules/
 
