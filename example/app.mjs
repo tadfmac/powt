@@ -24,10 +24,10 @@ app.use("/lib",express.static("./node_modules/powt/lib"));
 const webServer = https.createServer({cert: config.cert, key: config.key},app);
 webServer.listen(config.PORT);
 
-powtServer.onDgramReceived = onReceived;
-powtServer.onBidiReceived = onReceived;
-powtServer.onNewSession = onNewSession;
-powtServer.onCloseSession = onCloseSession;
+powtServer.on("datagram",onReceived);
+powtServer.on("stream",onReceived);
+powtServer.on("open",onNewSession);
+powtServer.on("close",onCloseSession);
 powtServer.start(config);
 
 async function onReceived(uint8Arr,id){

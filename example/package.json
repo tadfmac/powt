@@ -13,7 +13,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.2",
-    "powt": "^0.0.7"
+    "powt": "^0.0.8"
   },
   "bugs": {
     "url": "https://github.com/tadfmac/powt/issues"

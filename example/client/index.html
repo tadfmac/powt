@@ -195,9 +195,9 @@ function onStatusChange(_status){
 
 async function startConnection(){
   Log.out("startConnection()");
-  wt.onDgramReceived = received;
-  wt.onBidiReceived = received;
-  wt.onStatusChange = onStatusChange;
+  wt.on("datagram",received);
+  wt.on("stream",received);
+  wt.on("status",onStatusChange);
   await wt.connect(ENDPOINT);
   Log.out("connected!");
 }
