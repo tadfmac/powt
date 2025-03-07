@@ -18,10 +18,6 @@ Please See details below a server example.
 
 [`example/app.mjs`](./example/app.mjs)
 
-## Run example
-
-[live demo](https://wtapp.4191333.xyz:4445)
-
 ### run server
 
 #### 1. Make your config.mjs to `/example/config.mjs`
